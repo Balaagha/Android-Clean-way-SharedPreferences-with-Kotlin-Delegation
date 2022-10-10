@@ -33,7 +33,7 @@ class MenuItemListFragment :
             MenuItemsEnum.MAIN_ACTIVITY -> {
                 startActivity(Intent(requireContext(), MainActivity::class.java))
             }
-            MenuItemsEnum.EXAMPLE_FRAGMENT -> {
+            MenuItemsEnum.SHARED_PREF_WITH_DELEGATION -> {
                 this.navigateToTargetFragment(containerId = R.id.navHostFragment, ExampleFragment.newInstance())
             }
             else -> {}

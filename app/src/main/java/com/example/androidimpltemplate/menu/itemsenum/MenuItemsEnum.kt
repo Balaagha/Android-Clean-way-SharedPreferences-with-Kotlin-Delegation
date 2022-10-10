@@ -3,7 +3,7 @@ package com.example.androidimpltemplate.menu.itemsenum
 enum class MenuItemsEnum(name: String) {
 
     MAIN_ACTIVITY("Main Activity Example"),
-    EXAMPLE_FRAGMENT("Example Fragment"),
+    SHARED_PREF_WITH_DELEGATION("Shared Pref with delegation example"),
     ;
 
 
